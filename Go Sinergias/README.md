@@ -1,2 +1,0 @@
-# CYMA
-CYMA Construcciones Website
