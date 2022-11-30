@@ -1,2 +1,2 @@
-# CYMA
-CYMA Construcciones Website
+# Go Sinergias
+Go Sinergias Website
