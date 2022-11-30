@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  text-decoration: none;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+nav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+nav .menu {
+  height: auto;
+  margin: 10px;
+}
+nav #logoTop {
+  width: 30%;
+}
+nav #logoTop img {
+  margin-left: 15%;
+}
+nav #bar {
+  width: 70%;
+}
+nav ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+}
+nav ul li a, nav ul li a:focus, nav ul li a:active {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  color: #49A8EB;
+}
+nav img {
+  width: auto;
+  height: 60px;
+}
+
+#burger {
+  visibility: hidden;
+}
+#burger .mainmenu {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 20;
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  transition: top 1s ease;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+#burger .mainmenu .closemenu {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mainmenu li {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#logoM {
+  width: 95%;
+}
+#logoM img {
+  margin-left: 9%;
+}
+
+#burgerM {
+  width: 5%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+#burgerM .fas {
+  width: 50px;
+  height: auto;
+  color: #1E2EAF;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.wrapper .hero {
+  height: 650px;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.wrapper #pic {
+  width: 80%;
+}
+.wrapper img {
+  width: 100%;
+  height: auto;
+}
+.wrapper #title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 70%;
+  height: auto;
+}
+.wrapper #title img {
+  width: 250px;
+  height: auto;
+  margin: 30px;
+}
+
+@media (max-width: 1100px) {
+  #burger {
+    visibility: visible;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 650px;
+    margin-top: 60px;
+  }
+
+  #pic {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
